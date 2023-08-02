@@ -23,7 +23,6 @@ html {
     --title-size: 5rem;
     --subtitle-size: 2.5rem;
     --global-size: 2rem;
-
 }
 
 body {
@@ -32,7 +31,8 @@ body {
     background-color: var(--main-color);
 }
 
-#main {
+/* Main styles */
+.main-container {
     margin: 10px 10px;
     padding: 15px;
     text-align: center;
@@ -50,7 +50,7 @@ body {
 }
 
 /* Picture styles */
-#img-container {
+.img-container {
     padding: 20px;
     font-size: var(--global-size);
     color: var(--secondary-font-color);
@@ -58,49 +58,53 @@ body {
     border-radius: 5px;
 }
 
-#img-container img {
+.img-container img {
     max-width: 100%;
     display: block;
     height: auto;
     margin: 0 auto;
-    border-radius: 5px; 
 }
 
-#img-caption {
-    margin: 15px 0 5px 0;
+.img-caption {
+    margin: auto;
 }
 
-#headline {
+/* List styles */
+.tribute-info h3 {
     margin: 50px 0;
+    font-size: var(--global-size);
 }
 
-ul {
+.tribute-info ul {
     max-width: 550px;
     margin: 0 auto 50px auto;
     text-align: start;
-    line-height: 2;
+    line-height: 3;
 }
 
-li {
-    margin: 16px 0;
+.tribute-info li {
+    margin: 14px 10px;
+    font-size: var(--global-size);
+}
+
+/* Quote and link to Spotify styles */
+.blockquote {
+    margin: 0 auto 50px auto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: var(--subtitle-size);
 }
 
 a {
     color: #492F33;
 }
+
 a:visited, a:active{
     color: #492F33;
 }
 
-#quote {
-    font-style: italic;
-    font-weight: bold;
-    max-width: 545px;
-    margin: 0 auto 50px auto;
-}
-
 @media (max-width: 360px) {
-    #title {
+    .title {
         font-size: 2rem;
     }
 }
