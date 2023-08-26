@@ -1,16 +1,18 @@
-/* Global styles */
+/* Reset and basics */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Typography */
 html {
     font-size: 62.5%;
 }
 
-/* Global variables */
+/* Variables */
 :root {
+    /* Colors */
     --main-color: #492F33;
     --secondary-color: burlywood;
     --primary-font-color: #292028;
@@ -25,13 +27,14 @@ html {
     --global-size: 2rem;
 }
 
+/* Body styles */
 body {
     font-family: var(--global-font);
     color: var(--primary-font-color);
     background-color: var(--main-color);
 }
 
-/* Main styles */
+/* Container styles */
 .main-container {
     margin: 10px 10px;
     padding: 15px;
@@ -40,7 +43,7 @@ body {
     border-radius: 5px;
 }
 
-/* Title styles */
+/* Header styles */
 .title {
     font-size: var(--title-size);
 }
@@ -49,7 +52,7 @@ body {
     font-size: var(--subtitle-size);
 }
 
-/* Picture styles */
+/* Figure picture styles */
 .img-container {
     padding: 20px;
     font-size: var(--global-size);
@@ -69,7 +72,7 @@ body {
     margin: auto;
 }
 
-/* List styles */
+/* Analyzing songs' section styles */
 .tribute-info h3 {
     margin: 50px 0;
     font-size: var(--global-size);
@@ -79,7 +82,7 @@ body {
     max-width: 550px;
     margin: 0 auto 50px auto;
     text-align: start;
-    line-height: 3;
+    line-height: 2;
 }
 
 .tribute-info li {
@@ -103,6 +106,7 @@ a:visited, a:active{
     color: #492F33;
 }
 
+/* Responsive typography */
 @media (max-width: 360px) {
     .title {
         font-size: 2rem;
