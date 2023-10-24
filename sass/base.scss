@@ -1,0 +1,37 @@
+// Primary colors
+$dark-brown: #492F33;
+$burlywood: #deb887;
+
+// Typography
+$primary-font: 'Quicksand', sans-serif;
+
+// Font sizes
+$sm-font: 2rem;
+$md-font: 2.5rem;
+$lg-font: 5rem;
+
+// Font colors
+$primary-color: #292028;
+$secondary-color: #CFA383;
+
+// General resets
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: $primary-font;
+    color: $primary-color;
+    background-color: $dark-brown;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: $primary-color;
+}
+a:visited, a:active{
+    color: $primary-color;
+}

@@ -1,0 +1,59 @@
+@import '../sass/base.scss';
+
+// Main wrapper content
+.main-container {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: $burlywood;
+    border-radius: 5px;
+}
+
+// Header
+.header__title {
+    margin: 0;
+    font-size: $lg-font;
+}
+.header__subtitle {
+	font-size: $md-font;
+}
+
+// Hero
+.hero {
+    margin: 0;
+    padding: 20px;
+    font-size: $sm-font;
+    color: $secondary-color;
+    background-color: $dark-brown;
+    border-radius: 5px;
+	img {
+		width: 100%;
+	}
+}
+
+// Album analysis
+.album-analysis__subtitle {
+    margin: 30px 0;
+    font-size: $sm-font;
+}
+.album-analysis__list {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: start;
+    line-height: 1.6;
+}
+.album-analysis__list--item {
+    margin: 14px 10px;
+    font-size: $sm-font;
+}
+
+// Quote and link to Spotify styles
+.blockquote {
+    font-style: italic;
+    font-weight: bold;
+    font-size: $md-font;
+}
+.spotify__link {
+    font-weight: 600;
+    font-size: $sm-font;
+}
