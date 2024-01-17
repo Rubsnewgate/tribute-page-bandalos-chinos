@@ -1,18 +1,19 @@
-// Primary colors
+// Colors
 $dark-brown: #492F33;
 $burlywood: #deb887;
 
 // Typography
 $primary-font: 'Quicksand', sans-serif;
 
-// Font sizes
-$sm-font: 2rem;
-$md-font: 2.5rem;
 $lg-font: 5rem;
+$md-font: 2.5rem;
+$sm-font: 2rem;
 
-// Font colors
-$primary-color: #292028;
-$secondary-color: #CFA383;
+$mobile-sm-font: 1.5rem;
+$mobile-lg-font: 1.6rem;
+
+$primary-font-color: #292028;
+$secondary-font-color: #CFA383;
 
 // General resets
 * {
@@ -23,15 +24,15 @@ html {
 }
 body {
 	font-family: $primary-font;
-    color: $primary-color;
+    color: $primary-font-color;
     background-color: $dark-brown;
 }
 ul {
     list-style: none;
 }
 a {
-    color: $primary-color;
+    color: $primary-font-color;
 }
 a:visited, a:active{
-    color: $primary-color;
+    color: $primary-font-color;
 }

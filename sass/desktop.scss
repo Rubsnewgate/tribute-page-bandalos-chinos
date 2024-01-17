@@ -1,4 +1,4 @@
-@import '../sass/base.scss';
+@import 'guide.scss';
 
 // Main wrapper content
 .main-container {
@@ -23,7 +23,7 @@
     margin: 0;
     padding: 20px;
     font-size: $sm-font;
-    color: $secondary-color;
+    color: $secondary-font-color;
     background-color: $dark-brown;
     border-radius: 5px;
 	img {
@@ -40,9 +40,9 @@
     width: 100%;
     margin-bottom: 50px;
     text-align: start;
-    line-height: 1.6;
+    line-height: 1.5;
 }
-.album-analysis__list--item {
+.album-analysis__list-item {
     margin: 14px 10px;
     font-size: $sm-font;
 }

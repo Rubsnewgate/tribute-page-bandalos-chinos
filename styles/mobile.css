@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #292028;
+  background-color: #492F33;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #292028;
+}
+
+a:visited, a:active {
+  color: #292028;
+}
+
+.main-container {
+  margin: 0;
+  padding: 10px;
+}
+
+.header__title {
+  font-size: 2.5rem;
+}
+
+.header__subtitle {
+  font-size: 2rem;
+}
+
+.hero--caption {
+  font-size: 1.5rem;
+}
+
+.album-analysis__subtitle {
+  margin: 20px 0;
+  font-size: 1.6rem;
+}
+
+.album-analysis__list {
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.album-analysis__list-item {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.blockquote {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.spotify__link {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=mobile.css.map */

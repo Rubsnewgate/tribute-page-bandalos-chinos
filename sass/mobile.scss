@@ -1,0 +1,43 @@
+@import 'guide.scss';
+
+// Main wrapper content
+.main-container {
+	margin: 0;
+	padding: 10px;
+}
+
+// Header
+.header__title {
+	font-size: $md-font;
+}
+.header__subtitle {
+	font-size: $sm-font;
+}
+
+// Hero
+.hero--caption {
+	font-size: $mobile-sm-font;
+}
+
+// Album analysis
+.album-analysis__subtitle {
+	margin: 20px 0;
+	font-size: $mobile-lg-font;
+}
+.album-analysis__list {
+	padding: 0;
+	margin-bottom: 25px;
+}
+.album-analysis__list-item {
+	margin: 10px 0;
+	font-size: $mobile-sm-font;
+}
+
+// Quote and link to Spotify styles
+.blockquote {
+	margin: 0;
+	font-size: $mobile-lg-font;
+}
+.spotify__link {
+	font-size: $mobile-sm-font;
+}

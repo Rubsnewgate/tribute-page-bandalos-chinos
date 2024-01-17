@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #292028;
+  background-color: #492F33;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #292028;
+}
+
+a:visited, a:active {
+  color: #292028;
+}
+
+.main-container {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #deb887;
+  border-radius: 5px;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 5rem;
+}
+
+.header__subtitle {
+  font-size: 2.5rem;
+}
+
+.hero {
+  margin: 0;
+  padding: 20px;
+  font-size: 2rem;
+  color: #CFA383;
+  background-color: #492F33;
+  border-radius: 5px;
+}
+.hero img {
+  width: 100%;
+}
+
+.album-analysis__subtitle {
+  margin: 30px 0;
+  font-size: 2rem;
+}
+
+.album-analysis__list {
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: start;
+  line-height: 1.5;
+}
+
+.album-analysis__list-item {
+  margin: 14px 10px;
+  font-size: 2rem;
+}
+
+.blockquote {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.spotify__link {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=desktop.css.map */
